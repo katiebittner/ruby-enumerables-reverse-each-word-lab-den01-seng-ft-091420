@@ -11,5 +11,5 @@ def reverse_each_word(string)
     reversed_sentence.concat(reversed_word)
   end
   
-  
+  reversed_sentence
 end
