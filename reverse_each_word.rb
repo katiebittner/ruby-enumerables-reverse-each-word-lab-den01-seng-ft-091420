@@ -13,3 +13,12 @@
   
 #  reversed_sentence.chop
 #end
+
+def reverse_each_word(string)
+  array = string.split(" ")
+  reversed_sentence = ""
+  
+  
+  
+  reversed_sentence.chop
+end
