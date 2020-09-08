@@ -6,8 +6,9 @@ def reverse_each_word(string)
     reversed_word = ""
     word = word.split("")
     word.each do |letter|
-      reversed_word.prepe
+      reversed_word.prepend(letter)
     end
+    reversed_sentence.concat(reversed_word)
   end
   
   
