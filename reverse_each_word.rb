@@ -24,6 +24,7 @@ def reverse_each_word(string)
     word.collect do |letter|
       reversed_word.prepend(letter)
     end
+    reversed_sentence.concat(reversed_word + " ")
   end
   
   reversed_sentence.chop
