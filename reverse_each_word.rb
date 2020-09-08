@@ -8,7 +8,7 @@ def reverse_each_word(string)
     word.each do |letter|
       reversed_word.prepend(letter)
     end
-    reversed_sentence.concat(reversed_word)
+    reversed_sentence.concat(reversed_word + " ")
   end
   
   reversed_sentence
