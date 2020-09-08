@@ -19,7 +19,8 @@ def reverse_each_word(string)
   
   reversed_sentence = array.collect do |word|
     word = word.split("")
-    reversed_word = word.each do |letter|
+    reversed_word = ""
+    word.each do |letter|
       reversed_word.prepend(letter)
     end
     reversed_sentence.concat(reversed_word + " ")
